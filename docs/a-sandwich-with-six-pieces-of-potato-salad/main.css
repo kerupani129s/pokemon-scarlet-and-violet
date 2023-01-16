@@ -1,0 +1,66 @@
+.meal-powers {
+	display: flex;
+	flex-wrap: wrap;
+	width: 260px;
+}
+
+.meal-powers > dt,
+.meal-powers > dd {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0 12px;
+}
+
+.meal-powers > dt {
+	width: 40%;
+	background-color: #eee;
+}
+
+.meal-powers > dd {
+	width: 60%;
+}
+
+table th {
+	background-color: #eee;
+}
+
+.types-levels-table {
+	width: 420px;
+}
+
+.types-levels-table .types {
+	width: 22%;
+}
+
+.types-levels-table td {
+	text-align: center;
+}
+
+.stats-table {
+	width: 640px;
+}
+
+.stats-table .names {
+	width: 18%;
+}
+
+.stats-table .values {
+	width: 12%;
+}
+
+.stats-table td {
+	text-align: right;
+	padding: 0 6px;
+}
+
+.stats-table .flavor-bonus {
+	text-align: center;
+}
+
+.stats-table .effect {
+	text-align: left;
+}
+
+.stats-table td:not(:first-of-type) {
+	border-left: 1px solid #ccc;
+}

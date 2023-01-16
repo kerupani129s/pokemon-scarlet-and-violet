@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	line-height: 1.5;
+	color: #282828;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+a {
+	text-decoration: none;
+}
+
+a[href]:hover {
+	text-decoration: underline;
+}
+
+table {
+	table-layout: fixed;
+}
+
+th {
+	hyphens: auto;
+}
+
+.table-container {
+	overflow-x: auto;
+}
+
+input {
+	font: inherit;
+}
+
+.language-menu {
+	padding: 8px 12px 0;
+	text-align: center;
+}
+
+.site-title {
+	text-align: center;
+	padding: 0 12px;
+}
+
+.site-main {
+	margin: 0 auto;
+	max-width: 820px;
+}
+
+.site-main h1,
+.site-main h2,
+.site-main h3,
+.site-main h4,
+.site-main h5,
+.site-main h6 {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.site-main h2 {
+	border-bottom: 1px solid gainsboro;
+}
+
+.site-main h4 {
+	margin-bottom: 16px;
+}
+
+.site-main p {
+	padding: 0 12px;
+}
+
+.site-main ul, .site-main ol {
+	padding-left: 40px;
+}
+
+.site-footer {
+	padding: 0 12px 8px;
+	text-align: center;
+}
+
+.word {
+	display: inline-block;
+}
