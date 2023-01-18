@@ -74,6 +74,10 @@ input {
 	padding-left: 40px;
 }
 
+.site-main dl {
+	margin: 16px 12px;
+}
+
 .site-footer {
 	padding: 0 12px 8px;
 	text-align: center;

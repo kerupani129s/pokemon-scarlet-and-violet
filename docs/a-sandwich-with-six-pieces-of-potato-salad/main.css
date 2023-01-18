@@ -57,6 +57,20 @@ table th {
 	width: 420px;
 }
 
+@media (max-width: 443px) {
+	.types-levels-table {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (min-width: 444px) {
+	.types-levels-table {
+		margin-left: 12px;
+		margin-right: 12px;
+	}
+}
+
 .types-levels-table .types {
 	width: 22%;
 }
@@ -67,6 +81,20 @@ table th {
 
 .stats-table {
 	width: 640px;
+}
+
+@media (max-width: 663px) {
+	.stats-table {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (min-width: 664px) {
+	.stats-table {
+		margin-left: 12px;
+		margin-right: 12px;
+	}
 }
 
 .stats-table .names {
